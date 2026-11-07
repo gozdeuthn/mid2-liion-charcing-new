@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gozdeuthn/mid2-liion-charcing-new/blob/main/mid2-liion-charging/MID2_standard_to_controller.ipynb)
 
-Midterm project, **option 2**, for *Artificial Intelligence Applications in Engineering (MUH-920)*. The team is two electrical-electronics engineers and one chemical engineer.
+Midterm project, **option 2**, for *Artificial Intelligence Applications in Engineering (MUH-920)*. Team: **Melike Uzun** and **Gözde Uthan** (Electrical-Electronics Engineering), **Boran Özel** (Chemical Engineering).
 
 Everything is in one notebook: **[`MID2_standard_to_controller.ipynb`](MID2_standard_to_controller.ipynb)**. It follows the course starter notebook (sections 1-5), is saved with all outputs, and needs only `numpy` and `matplotlib`.
 
@@ -42,19 +42,16 @@ Everything is in one notebook: **[`MID2_standard_to_controller.ipynb`](MID2_stan
   pip install -r requirements.txt jupyter
   jupyter notebook MID2_standard_to_controller.ipynb
   ```
-* **GitHub Actions:** `.github/workflows/run-notebook.yml` executes the whole notebook on every push and uploads the result.
-
-> After creating the repository, replace `YOUR_USERNAME/YOUR_REPO` in this README and in the first cell of the notebook, and put your names in the team line.
 
 ## Limitations
 The ageing index is semi-empirical and uncalibrated. Only its trend follows the literature (Waldmann et al., 2014). The cell is modelled as a single thermal mass. JEITA zone values follow typical charger ICs and must be checked against the datasheet of the actual cell.
 
-## Team roles (suggested)
+## Team roles
 | Member | Responsibility |
 |---|---|
-| EEE 1 | Rule base, sensing layer, inference and explanation (sections 1-2) |
-| EEE 2 | Fuzzy controller, cell model, simulations (sections 3-4) |
-| ChE | Electrochemistry of plating and SEI, ageing model, rule review, discussion (sections 4.1 and 5) |
+| Melike Uzun (EEE) | Rule base, sensing layer, inference and explanation (sections 1-2) |
+| Gözde Uthan (EEE) | Fuzzy controller, cell model, simulations (sections 3-4) |
+| Boran Özel (ChE) | Electrochemistry of plating and SEI, ageing model, rule review, discussion (sections 4.1 and 5) |
 
 ## License
 Code MIT. The course starter notebook is by Prof. Dr. Utku Kose (CC BY 4.0 / MIT).
