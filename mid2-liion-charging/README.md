@@ -1,7 +1,6 @@
 # From a standard to a controller: Li-ion cell charging
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/MID2_standard_to_controller.ipynb)
-![Run notebook](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/run-notebook.yml/badge.svg)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gozdeuthn/mid2-liion-charcing-new/blob/main/mid2-liion-charging/MID2_standard_to_controller.ipynb)
 
 Midterm project, **option 2**, for *Artificial Intelligence Applications in Engineering (MUH-920)*. The team is two electrical-electronics engineers and one chemical engineer.
 
